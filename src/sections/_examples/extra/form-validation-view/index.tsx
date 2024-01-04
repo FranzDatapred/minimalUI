@@ -12,6 +12,7 @@ import { paths } from 'src/routes/paths';
 
 import CustomBreadcrumbs from 'src/components/custom-breadcrumbs';
 
+import TestForm from './test-form';
 import ReactHookForm from './react-hook-form';
 
 // ----------------------------------------------------------------------
@@ -52,6 +53,7 @@ export default function FormValidationView() {
 
         <Divider sx={{ my: 5 }} />
 
+        <TestForm debug={debug} />
         <ReactHookForm debug={debug} />
       </Container>
     </>

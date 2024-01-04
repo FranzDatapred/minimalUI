@@ -32,7 +32,6 @@ import FormProvider, {
 } from 'src/components/hook-form';
 
 import { FormSchema } from './schema';
-import ValuesPreview from './values-preview';
 
 // ----------------------------------------------------------------------
 
@@ -376,7 +375,7 @@ export default function ReactHookForm({ debug }: Props) {
           </Stack>
         </Box>
 
-        {debug && <ValuesPreview />}
+        {/* {debug && <ValuesPreview />} */}
       </FormProvider>
     </>
   );
