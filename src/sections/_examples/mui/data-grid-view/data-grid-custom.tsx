@@ -239,7 +239,7 @@ function RatingInputValue({ item, applyValue }: GridFilterInputValueProps) {
       <Rating
         size="small"
         precision={0.5}
-        placeholder="Filter value"
+        // placeholder="Filter value"
         value={Number(item.value)}
         onChange={(event, newValue) => {
           applyValue({ ...item, value: newValue });
